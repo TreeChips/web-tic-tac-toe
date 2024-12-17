@@ -1,0 +1,33 @@
+img {
+    position:relative;
+    transform: scale(1.2);
+    left:12px;
+    top:3px;
+}
+
+div {
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 370px;
+    padding: 10px;
+    z-index: 1; 
+}
+button {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    font-size: 24px;
+    display: flex;          
+    align-items: center;    
+    justify-content: center; 
+}
+
+#game-container {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 5px; 
+    justify-content: center;
+    align-items: center;
+}
